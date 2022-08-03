@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+
+package pb;
+import "memory_processor.proto";
+
+option go_package = "grpc_project/pb";
+
+message Storage {
+    enum Driver {
+        UNKNOWN = 0;
+        HDD = 1;
+        SSD = 2;
+    }
+    Driver driver =1;
+    Memory memory =2;
+}

@@ -1,0 +1,62 @@
+{
+ "id": "cc564bee-27d8-4534-8eb2-05b7bd915456",
+ "brand": "Dell",
+ "name": "XPS",
+ "cpu": {
+  "brand": "AMD",
+  "name": "Ryzen 3 PRO 3200GE",
+  "number_cores": 6,
+  "number_threads": 10,
+  "min_ghz": 2.339717317844811,
+  "max_ghz": 4.672722347126549
+ },
+ "ram": {
+  "value": "30",
+  "unit": 5
+ },
+ "gpus": [
+  {
+   "brand": "NVIDIA",
+   "name": "RTX 2070",
+   "min_ghz": 2.078140274206622,
+   "max_ghz": 3.223940785030007,
+   "memory": {
+    "value": "5",
+    "unit": 5
+   }
+  }
+ ],
+ "storages": [
+  {
+   "driver": 2,
+   "memory": {
+    "value": "414",
+    "unit": 5
+   }
+  },
+  {
+   "driver": 1,
+   "memory": {
+    "value": "2",
+    "unit": 6
+   }
+  }
+ ],
+ "screen": {
+  "size_inch": 13.853994,
+  "resolution": {
+   "width": 3248,
+   "height": 1827
+  },
+  "panel": 2,
+  "multitouch": false
+ },
+ "keyboard": {
+  "layout": 1,
+  "backlit": false
+ },
+ "weight_kg": 2.0433218479156494,
+ "price_usd": 1781.5350534137535,
+ "release_year": 2017,
+ "updated_at": "2022-08-03T13:39:23.862679465Z"
+}
